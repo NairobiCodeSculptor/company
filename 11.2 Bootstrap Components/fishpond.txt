@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Fishpond Service Provider Portfolio</title>
+    <style>
+        body {
+            background-color: #e9f7ef;
+        }
+        .header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .btn-custom {
+            background-color: #66bb6a;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Ultimate Fishpond Solutions</h1>
+    <p>Your one-stop shop for fish and fishpond equipment</p>
+</div>
+
+<div class="container text-center mt-5">
+    <h2>Our Services</h2>
+    <p>We offer a range of products and services for fishpond enthusiasts.</p>
+    <button class="btn btn-custom btn-lg" onclick="location.href='quotation.html'">Quotation</button>
+    <button class="btn btn-custom btn-lg" onclick="location.href='contacts.html'">Contacts</button>
+</div>
+
+<div class="footer">
+    <p>© 2024 Abdulrahman</p>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
